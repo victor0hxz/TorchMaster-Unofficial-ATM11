@@ -1,0 +1,88 @@
+package net.xalcon.torchmaster;
+
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.resources.Identifier;
+
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import java.util.regex.Pattern;
+
+public class EntityFilterList
+{
+	private final Identifier filterListId;
+	private final Set<Identifier> list = new HashSet<>();
+
+    public EntityFilterList(Identifier identifier)
+    {
+        this.filterListId = identifier;
+    }
+
+    public boolean containsEntity(Identifier entityName)
+	{
+		return this.list.contains(entityName);
+	}
+
+	public void registerEntity(Identifier entityName)
+	{
+		this.list.add(entityName);
+	}
+
+	private static final Pattern FILTER_PATTERN = Pattern.compile("[+-][a-z0-9_-]+:[a-z0-9_-]+");
+
+	public static boolean IsValidFilterString(Object object)
+	{
+		return object instanceof String filterString && FILTER_PATTERN.matcher(filterString).matches();
+	}
+
+	public void applyListOverrides(List<String> overrides)
+	{
+		for(String override: overrides)
+		{
+			// minimum len is prefix + valid resource location, i.e. +a:b
+			if(override.length() < 4)
+			{
+				Torchmaster.LOG.warn("[{}] Invalid filter definition '{}'", filterListId, override);
+				continue;
+			}
+
+			char prefix = override.charAt(0);
+			var rl = Identifier.parse(override.substring(1));
+
+			switch (prefix)
+			{
+				case '+':
+					if(!this.containsEntity(rl))
+					{
+						if(!BuiltInRegistries.ENTITY_TYPE.containsKey(rl))
+						{
+							Torchmaster.LOG.warn("[{}] The entity '{}' does not exist, skipping", filterListId, rl);
+							continue;
+						}
+						this.registerEntity(rl);
+						Torchmaster.LOG.info("[{}] Added '{}' to the block list", filterListId, rl);
+					}
+					break;
+				case '-':
+					if(this.list.removeIf(rrl -> rrl.equals(rl)))
+					{
+						Torchmaster.LOG.info("[{}] Removed '{}' from the block list", filterListId, rl);
+					}
+					break;
+				default:
+					Torchmaster.LOG.warn("[{}] Invalid block list prefix: '{}', only + and - are valid prefixes", filterListId, prefix);
+					break;
+			}
+		}
+	}
+
+	public Identifier[] getEntities()
+	{
+		return this.list.toArray(new Identifier[0]);
+	}
+
+	public void clear()
+	{
+		list.clear();
+	}
+}

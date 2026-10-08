@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "TTT",
+        "DLD",
+        "GLG"
+    ],
+    "key": {
+        "T": "minecraft:torch",
+        "D": "#c:gems/diamond",
+        "G": "#c:storage_blocks/gold",
+        "L": "#minecraft:logs"
+    },
+    "result": {
+        "id": "torchmaster:megatorch"
+    }
+}

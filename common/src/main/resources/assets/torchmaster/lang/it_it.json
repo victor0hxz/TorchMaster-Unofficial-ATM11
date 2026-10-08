@@ -1,0 +1,14 @@
+{
+    "item.torchmaster.megatorch": "Mega Torcia",
+    "item.torchmaster.megatorch.tooltip": "Previene la generazione naturale dei mostri in un grande raggio intorno alla torcia",
+    "item.torchmaster.dreadlamp": "Lampada Terrorizzata",
+    "item.torchmaster.dreadlamp.tooltip": "Previene la generazione di animali passivi come calamari, pipistrelli o ocelot in un grande raggio intorno alla lampada",
+    "item.torchmaster.feral_flare_lantern": "Lampada Fiammeggiante",
+    "item.torchmaster.feral_flare_lantern.tooltip": "Piazza fonti di luce invisibile",
+    "item.torchmaster.invisible_light": "Luce Invisibile",
+    "item.torchmaster.frozen_pearl": "Perla Ghiacciata",
+    "item.torchmaster.frozen_pearl.tooltip": "Rimuove le fonti di luce rimanenti da una Lampada Fiammeggiante",
+    "command.torchmaster.torch_list.completed": "Le torche sono state elencate nel file",
+    "command.torchmaster.entity_dump.completed": "Le entità sono state elencate nel file",
+    "itemGroup.torchmaster": "Torchmaster"
+}

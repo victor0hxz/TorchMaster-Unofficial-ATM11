@@ -1,0 +1,13 @@
+{
+  "originalJar": "torchmaster-neoforge-26.1.2-26.1.2-1.0.0.jar",
+  "originalSha256": "ea3a2a3a9d73e9307d5d69f12ab08511cbf8ff8f7cd171430f3477cc44a8e7d1",
+  "publishedArchiveSha256": "7cff62fdc3affda8d2fad492887777375f9f61390c0757da3e3aaff383c12de1",
+  "classes": 58,
+  "classMajors": [
+    69
+  ],
+  "licenseEmbedded": true,
+  "archiveIntegrity": "PASS",
+  "jsonParsing": "PASS",
+  "runtimeValidation": "JAR compilation and archive integrity verified. The available server validation log ends during asset downloads; a successful runtime test is not established by that log."
+}
