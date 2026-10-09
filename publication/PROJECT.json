@@ -1,0 +1,27 @@
+{
+  "name": "Torchmaster - Unofficial Fan Build (26.1.2)",
+  "summary": "Unofficial fan compatibility build of Torchmaster for Minecraft 26.1.2.",
+  "game": "Minecraft",
+  "class": "Mods",
+  "mainCategory": "Utility & QoL",
+  "license": "MIT",
+  "releaseType": "beta",
+  "gameVersions": [
+    "26.1.2"
+  ],
+  "modLoader": "NeoForge",
+  "dependenciesNotes": "No required mod dependencies beyond NeoForge 26.1.2.109.",
+  "originalAuthors": "Xalcon",
+  "upstream": "https://github.com/Xalcon/TorchMaster",
+  "jar": "torchmaster-neoforge-26.1.2-26.1.2-1.0.0.jar",
+  "sha256": "7cff62fdc3affda8d2fad492887777375f9f61390c0757da3e3aaff383c12de1",
+  "validation": "JAR compilation and archive integrity verified. The available server validation log ends during asset downloads; a successful runtime test is not established by that log.",
+  "status": "Created; portal status New; file uploads not yet verified",
+  "sourceUrl": "https://github.com/victor0hxz/TorchMaster-Unofficial-ATM11",
+  "issuesUrl": "https://github.com/victor0hxz/TorchMaster-Unofficial-ATM11/issues",
+  "projectId": 1734573,
+  "slug": "torchmaster-unofficial-fan-build-26-1-2",
+  "curseforgeUrl": "https://www.curseforge.com/minecraft/mc-mods/torchmaster-unofficial-fan-build-26-1-2",
+  "publicationTitle": "TorchMaster: Version Locked",
+  "logoSubtitle": "VERSION LOCKED"
+}
