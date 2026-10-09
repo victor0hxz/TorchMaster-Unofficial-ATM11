@@ -1,0 +1,6 @@
+{
+  "displayName": "torchmaster-neoforge-26.1.2-26.1.2-1.0.0.jar",
+  "changelog": "Initial unofficial fan compatibility build for Minecraft 26.1.2.\n\nAdds the Mega Torch and related lighting utilities to control mob spawning in configurable areas. This NeoForge build adapts the original Torchmaster project to Minecraft 26.1.2.\n\nJAR compilation and archive integrity verified. The available server validation log ends during asset downloads; a successful runtime test is not established by that log.\n",
+  "changelogType": "markdown",
+  "releaseType": "beta"
+}
