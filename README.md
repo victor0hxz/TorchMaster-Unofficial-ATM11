@@ -1,11 +1,11 @@
 <!-- VERSION-LOCKED-PUBLICATION:START -->
 # TorchMaster: Version Locked
 
-<img src="https://raw.githubusercontent.com/victor0hxz/TorchMaster-Unofficial-ATM11/main/publication/LOGO-VERSION-LOCKED.png" alt="TorchMaster: Version Locked" width="480" />
+<img src="https://raw.githubusercontent.com/victor0hxz/TorchMaster-Version-Locked/main/publication/BANNER-VERSION-LOCKED.png" alt="TorchMaster: Version Locked" width="100%" />
 
 **Minecraft 26.1.2 · NeoForge · Java 25**
 
-[CurseForge](https://www.curseforge.com/minecraft/mc-mods/torchmaster-unofficial-fan-build-26-1-2) · [Downloads](https://github.com/victor0hxz/TorchMaster-Unofficial-ATM11/releases) · [Source](https://github.com/victor0hxz/TorchMaster-Unofficial-ATM11) · [Report an issue](https://github.com/victor0hxz/TorchMaster-Unofficial-ATM11/issues)
+[CurseForge](https://www.curseforge.com/minecraft/mc-mods/torchmaster-unofficial-fan-build-26-1-2) · [Downloads](https://github.com/victor0hxz/TorchMaster-Version-Locked/releases) · [Source](https://github.com/victor0hxz/TorchMaster-Version-Locked) · [Report an issue](https://github.com/victor0hxz/TorchMaster-Version-Locked/issues)
 
 An unofficial community port for Minecraft 26.1.2 and NeoForge.
 
@@ -33,7 +33,7 @@ This port does not claim ownership of the original code, artwork or assets. The 
 
 ## 🛠️ Bugs and compatibility
 
-Please report port-specific issues at https://github.com/victor0hxz/TorchMaster-Unofficial-ATM11/issues. Include your Minecraft and NeoForge versions, installed mod list, relevant logs and any crash report. Compatibility with every mod combination has not been verified.
+Please report port-specific issues at https://github.com/victor0hxz/TorchMaster-Version-Locked/issues. Include your Minecraft and NeoForge versions, installed mod list, relevant logs and any crash report. Compatibility with every mod combination has not been verified.
 
 ## 🧪 ATM11 compatibility
 
@@ -46,7 +46,7 @@ This distribution was prepared for the ATM11 compatibility project. JAR compilat
 - Java: 25
 - Project type: unofficial community port
 - License: MIT
-- GitHub, downloads and source documentation: https://github.com/victor0hxz/TorchMaster-Unofficial-ATM11
+- GitHub, downloads and source documentation: https://github.com/victor0hxz/TorchMaster-Version-Locked
 - Installation: replace older copies of this mod and avoid duplicate mod IDs.
 
 Thank you to Xalcon for the original project.
@@ -57,7 +57,7 @@ Thank you to Xalcon for the original project.
 
 ## Build and port documentation
 
-# Torchmaster - Unofficial Fan Build (26.1.2)
+# Torchmaster Version Locked
 
 Adds the Mega Torch and related lighting utilities to control mob spawning in configurable areas. This NeoForge build adapts the original Torchmaster project to Minecraft 26.1.2.
 
@@ -81,7 +81,7 @@ This initial file should be submitted as **Beta**, pending full-pack community g
 
 ## Downloads and support
 
-Download the unofficial prerelease JAR from [this repository's releases](https://github.com/victor0hxz/TorchMaster-Unofficial-ATM11/releases). Report problems to [this port's issue tracker](https://github.com/victor0hxz/TorchMaster-Unofficial-ATM11/issues). Do not direct port-specific support requests to the original authors.
+Download the unofficial prerelease JAR from [this repository's releases](https://github.com/victor0hxz/TorchMaster-Version-Locked/releases). Report problems to [this port's issue tracker](https://github.com/victor0hxz/TorchMaster-Version-Locked/issues). Do not direct port-specific support requests to the original authors.
 
 ## Build source
 
