@@ -57,10 +57,6 @@ Thank you to Xalcon for the original project.
 
 ## Build and port documentation
 
----
-
-## Build and port documentation
-
 # Torchmaster - Unofficial Fan Build (26.1.2)
 
 Adds the Mega Torch and related lighting utilities to control mob spawning in configurable areas. This NeoForge build adapts the original Torchmaster project to Minecraft 26.1.2.
